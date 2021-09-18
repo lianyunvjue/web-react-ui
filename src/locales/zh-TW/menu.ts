@@ -21,6 +21,7 @@ export default {
   'menu.form.step-form.confirm': '分步表單（確認轉賬信息）',
   'menu.form.step-form.result': '分步表單（完成）',
   'menu.form.advanced-form': '高級表單',
+  'menu.posts': '博客',
   'menu.list': '列表頁',
   'menu.list.table-list': '查詢表格',
   'menu.list.basic-list': '標淮列表',

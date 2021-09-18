@@ -3,16 +3,16 @@
     path: '/user',
     layout: false,
     routes: [
-      {
-        path: '/user',
-        routes: [
-          {
-            name: 'login',
-            path: '/user/login',
-            component: './user/Login',
-          },
-        ],
-      },
+      // {
+      //   path: '/user',
+      //   routes: [
+      //     {
+      //       name: 'login',
+      //       path: '/user/login',
+      //       component: './user/Login',
+      //     },
+      //   ],
+      // },
       {
         component: './404',
       },
@@ -47,6 +47,12 @@
     icon: 'table',
     path: '/list',
     component: './TableList',
+  },
+  {
+    name: 'posts',
+    icon: 'smile',
+    path: '/posts',
+    component: './posts',
   },
   {
     path: '/',
